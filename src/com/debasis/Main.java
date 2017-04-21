@@ -48,8 +48,6 @@ public class Main {
         temp = new StockItem("vase", 8.76, 40);
         stockList.addStock(temp);
 
-        System.out.println(stockList);
-
         for(String s: stockList.Items().keySet()) {
             System.out.println(s);
         }
